@@ -19,7 +19,7 @@ class Counter extends Component {
             {this.formatCount()}
           </span>
         </div>
-        <div className="col-4">
+        <div className="col">
           <button
             onClick={() => this.props.onIncrement(this.props.counter)}
             className="btn btn-secondary btn-sm "
